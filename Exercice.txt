@@ -1,0 +1,99 @@
+Exercice1
+
+mkdir cli_tmp
+touch cli_tmp/je_suis_dans_tmp.txt
+cd cli_tmp 
+touch in_cli_tmp
+mv in_cli_tmp in_cli_tmp.txt
+mkdir in_cli_tmp
+ rm -r je_suis_dans_tmp.txt
+ mkdir grand_parent parent grand_frere grande_soeur ami connaissances
+cd grand_frere 
+touch bachir.txt
+mv bachir.txt ../ami 
+ cd .. 
+cp -rf ami parent 
+ pwd
+ cd ~
+cd desktop
+rm -r cli_tmp
+
+
+Exercice 2
+
+pwd 
+ls -a 
+mkdir conteneur
+cd conteneur
+mkdir voitures ustensiles electronique
+cd voitures
+touch mes_voitures.txt
+echo " benz toyota honda " >>mes_voitures.txt
+cd ..
+cd conteneur
+cd ustensiles
+touch cuisine.txt
+echo " louche casserole marmite ">>cuisine.txt
+cat cuisine.txt
+cd ..
+ls -alt
+
+Exercice 3
+
+pwd
+ls -a
+mkdir  actualite politique
+cd politique
+mkdir election
+cd election 
+touch candidats.txt
+echo " MOCTAR ASSANE YONLI">>candidats.txt 
+cd ../..
+cd actualite 
+mkdir buzz
+
+
+Exercice 4
+
+pwd
+touch .configuration
+ls -a
+mkdir creation crayon
+cd crayon 
+touch couleur.txt
+mv couleur.txt colors.txt
+cd ..
+cd creation 
+touch gomme.txt
+mv gomme.txt ../crayon 
+cd ~
+cd creation
+
+
+Exercice 5
+
+mkdir ma_classe 
+touch mes_camarades.txt
+echo "ali moussa fati ">>mes_camarades.txt 
+touch .surveillant 
+ls -a
+rm .surveillant 
+rm -rf ma_class
+  
+
+Exercice 6
+
+
+brew install asciiquarium
+asciiquarium
+
+
+Exercice 7
+
+brew install sl 
+sl
+
+Exercice 8
+
+brew install cmatrix
+cmatrix
